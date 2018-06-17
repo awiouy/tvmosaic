@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product_info>
+  <id>ea723013-ad27-46a1-9166-ad02643db7c1</id>
+  <version>1.0.0</version>
+  <revision>16046</revision>
+  <name>TV Adviser (NL)</name>
+  <url>https://tv-mosaic.com/#tv_adviser</url>
+  <requires_subscription/>
+  <priority>30</priority>
+</product_info>

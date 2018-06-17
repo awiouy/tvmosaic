@@ -1,0 +1,27 @@
+This is TVMosaic readme file for the openelec running on a raspberry pi platform.
+
+-- Installation/Upgrade --
+To make a new installation or upgrade and existing one run install.sh script:
+./install.sh
+
+This script copies TVMosaic files and updates autorun.sh script for the TVMosaic server to start automatically on system start-up.
+
+-- Files location --
+All TVMosaic program files are installed into /storage/tvmosaic. This location is fixed and should not be changed.
+All TVMosaic data files that need to persist across program (re)installation are located in /storage/tvmosaic.data.
+
+Recorded TV files: /storage/tvmosaic.data/RecordedTV/
+Place for xmltv files: /storage/tvmosaic.data/xmltv/
+Transponder files and playlists: /storage/tvmosaic.data/scanners/
+Recorded TV and EPG database (do not touch it unless you know what you do): /storage/tvmosaic.data/recorder_database/
+
+-- TV tuners --
+TVMosaic does not come with any packaged tuner drivers. Instead it uses the video4linux tree, which is part of the openelec RPi installation.
+
+-- Uninstall --
+To uninstall the TVMosaic server do the following:
+- /storage/tvmosaic/stop.sh
+- rm -rf /storage/tvmosaic
+- (optional, if you do not need any previously recorded TV content): rm -rf /storage/tvmosaic.data
+- open /storage/.config/autostart.sh in the text editor (vi or nano) and delete the tvmosaic server start-up command
+

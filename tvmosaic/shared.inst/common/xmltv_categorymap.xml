@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<categories>
+	<Action>
+		<keyword>Action</keyword>
+		<keyword>Боевик</keyword>
+	</Action>
+	<Adult>
+		<keyword>Adult</keyword>
+		<keyword>Эротика</keyword>
+	</Adult>
+	<Comedy>
+		<keyword>Comedy</keyword>
+		<keyword>Комедия</keyword>
+	</Comedy>
+	<Documentary>
+		<keyword>Documentary</keyword>
+	</Documentary>
+	<Drama>
+		<keyword>Drama</keyword>
+	</Drama>
+	<Educational>
+		<keyword>Educational</keyword>
+		<keyword>cookery</keyword>
+		<keyword>transport</keyword>		
+		<keyword>environment</keyword>		
+		<keyword>travel</keyword>		
+		<keyword>science</keyword>		
+		<keyword>gardening</keyword>		
+		<keyword>education</keyword>		
+		<keyword>nature</keyword>		
+		<keyword>technology</keyword>		
+	</Educational>
+	<Horror>
+		<keyword>Horror</keyword>
+	</Horror>
+	<Kids>
+		<keyword>Kids</keyword>
+		<keyword>Детям</keyword>
+		<keyword>children</keyword>
+		<keyword>youth</keyword>
+		<keyword>childrens</keyword>
+		<keyword>pre-school</keyword>
+	</Kids>
+	<Movie>
+		<keyword>Movie</keyword>
+		<keyword>Художественный фильм</keyword>
+		<keyword>film</keyword>
+		<keyword>mystery</keyword>
+		<keyword>Фильм</keyword>
+	</Movie>
+	<Music>
+		<keyword>Music</keyword>
+		<keyword>Музыка</keyword>
+		<keyword>pop</keyword>
+		<keyword>soul</keyword>
+		<keyword>jazz</keyword>
+		<keyword>blues</keyword>
+		<keyword>rock</keyword>
+	</Music>
+	<News>
+		<keyword>News</keyword>
+		<keyword>Новости</keyword>
+		<keyword>news and current affairs</keyword>
+		<keyword>current affairs</keyword>
+		<keyword>business</keyword>
+		<keyword>political</keyword>
+		<keyword>finance</keyword>
+		<keyword>local news</keyword>
+		<keyword>weather</keyword>
+	</News>
+	<Reality>
+		<keyword>Reality</keyword>
+	</Reality>
+	<Romance>
+		<keyword>Romance</keyword>
+	</Romance>
+	<ScienceFiction>
+		<keyword>ScienceFiction</keyword>
+		<keyword>Science Fiction</keyword>
+		<keyword>sci-fi</keyword>
+		<keyword>scifi</keyword>
+	</ScienceFiction>
+	<Serial>
+		<keyword>Serial</keyword>
+		<keyword>Сериал</keyword>
+		<keyword>series</keyword>
+		<keyword>serie</keyword>
+	</Serial>
+	<Soap>
+		<keyword>Soap</keyword>
+	</Soap>
+	<Special>
+		<keyword>Special</keyword>
+		<keyword>religion</keyword>		
+		<keyword>interests</keyword>
+		<keyword>game show</keyword>
+		<keyword>talk show</keyword>
+		<keyword>entertainment</keyword>
+		<keyword>health</keyword>
+		<keyword>quiz show</keyword>
+		<keyword>chat show</keyword>
+		<keyword>religious</keyword>
+		<keyword>arts</keyword>
+		<keyword>fashion</keyword>
+	</Special>
+	<Sports>
+		<keyword>Sports</keyword>
+		<keyword>Sport</keyword>
+		<keyword>Спорт</keyword>
+		<keyword>soccer</keyword>
+		<keyword>golf</keyword>
+		<keyword>baseball</keyword>
+		<keyword>racing</keyword>
+		<keyword>wrestling</keyword>
+		<keyword>boxing</keyword>
+		<keyword>cricket</keyword>
+		<keyword>rugby</keyword>
+		<keyword>live sport</keyword>
+		<keyword>football</keyword>
+		<keyword>motorsport</keyword>
+	</Sports>
+	<Thriller>
+		<keyword>Thriller</keyword>
+	</Thriller>
+</categories>

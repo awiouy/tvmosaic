@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language id="NL" name="Nederlands">
+  <IDS_SERVER_UNKNOWN_DEVICE_NAME value="Onbekend"/>
+  <IDS_SERVER_CHANNEL_SCAN_PROVIDERS value="Zenders zoeken op aanbieder"/>
+  <IDS_SERVER_AVAILABLE_NETWORKS value="Beschikbare netwerken"/>
+  <IDS_SERVER_TV_FAVORITES_NAME value="TV"/>
+  <IDS_SERVER_RADIO_FAVORITES_NAME value="Radio"/>
+  <IDS_SERVER_MANUAL_FASTSCAN_NAME value="Scan DVB-C netwerk"/>
+  <IDS_SERVER_MANUAL_FASTSCAN_DESC value="Scan netwerk met handmatige parameters"/>
+  <IDS_SERVER_LNB_PARAM_NAME value="LNB"/>
+  <IDS_SERVER_DISEQC_PARAM_NAME value="Diseqc"/>
+  <IDS_SERVER_FREQ_KHZ_PARAM_NAME value="Frequentie, KHz"/>
+  <IDS_SERVER_SR_PARAM_NAME value="Symbol rate"/>
+  <IDS_SERVER_MODULATION_PARAM_NAME value="Modulatie"/>
+  <IDS_SERVER_MOD_QAM64_PARAM_NAME value="QAM64"/>
+  <IDS_SERVER_MOD_QAM128_PARAM_NAME value="QAM128"/>
+  <IDS_SERVER_MOD_QAM256_PARAM_NAME value="QAM256"/>
+  <IDS_SERVER_REGULAR_SCAN_NAME value="Normale scan"/>
+  <IDS_SERVER_NETWORK_SCAN_NAME value="Netwerk scan"/>
+  <IDS_SERVER_STANDARD_UNKNOWN_NAME value="Onbekend"/>
+  <IDS_SERVER_STANDARD_DVBT_NAME value="Terrestrisch (DVB-T/T2)"/>
+  <IDS_SERVER_STANDARD_DVBC_NAME value="Digitale kabel (DVB-C)"/>
+  <IDS_SERVER_STANDARD_DVBS_NAME value="Satelliet (DVB-S/S2)"/>
+  <IDS_SERVER_STANDARD_ATSC_NAME value="OTA (ATSC)"/>
+  <IDS_SERVER_STANDARD_CQAM_NAME value="ClearQAM"/>
+  <IDS_SERVER_STANDARD_DVBT_SHORT_NAME value="DVB-T/T2"/>
+  <IDS_SERVER_STANDARD_DVBC_SHORT_NAME value="DVB-C"/>
+  <IDS_SERVER_STANDARD_DVBS_SHORT_NAME value="DVB-S/S2"/>
+  <IDS_SERVER_STANDARD_ATSC_SHORT_NAME value="ATSC"/>
+  <IDS_SERVER_STANDARD_CQAM_SHORT_NAME value="ClearQAM"/>
+  
+  <IDS_SERVER_SCAN_PARAMS_CONTAINER_NAME value="Instellingen zenders zoeken"/>
+  <IDS_SERVER_SCAN_PARAMS_CONTAINER_DESC value="Parameters van uw TV installatie instellen"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_NAME value="Alleen vrije zenders zoeken"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_YES value="Ja"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_NO value="Nee"/>
+
+  <IDS_SERVER_DEVICE_PARAMS_CNTR_NAME value="Apparaat instellingen"/>
+  <IDS_SERVER_FTA_CONCURRENCY_NUM_NAME value="Max aantal gelijktijdige vrije (fta) zenders"/>
+  <IDS_SERVER_ENC_CONCURRENCY_NUM_NAME value="Max aantal gelijktijdige versleutelde zenders"/>
+  <IDS_SERVER_CONCURRENCY_NUM_NO_LIMIT_NAME value="Geen limiet"/>
+  <IDS_SERVER_MANUAL_DEVICE_TYPE value="Apparaat type"/>  
+  <IDS_SERVER_STANDARD_FILE_NAME value="Bestand"/>  
+  <IDS_SERVER_STANDARD_FILE_DESC value="Transport stream bestand"/>  
+  <IDS_SERVER_DEVICE_FILE_NAME value="Bestand"/>  
+  <IDS_SERVER_STANDARD_IPTV_NAME value="IPTV"/>  
+  <IDS_SERVER_STANDARD_IPTV_DESC value="IPTV afspeellijst"/>  
+  <IDS_SERVER_DEVICE_IPTV_NAME value="IPTV"/>
+  <IDS_SERVER_IP_ADDR_PARAM_NAME value="Lokaal IP adres"/>
+  <IDS_SERVER_IP_ADDR_AUTO_PARAM_NAME value="Automatisch"/>
+  <IDS_PREBUF_TIME_MS_PARAM_NAME value="Prebuffer tijd, ms"/>
+  <IDS_SERVER_URL_ENTRY_PROVIDER_NAME value="Externe afspeellijst"/>
+  <IDS_SERVER_URL_ENTRY_PROVIDER_DESC value="Afspeellijst vanaf een externe internet server"/>
+  <IDS_SERVER_URL_ENTRY_FIELD_NAME value="afspeellijst URL"/>
+  <IDS_SERVER_HDHOMERUN_PROVIDER_NAME value="HDHomeRun apparaat"/>
+  <IDS_SERVER_HDHOMERUN_PROVIDER_DESC value="HDHomeRun Prime/Expand apparaat"/>
+  <IDS_SERVER_HDHOMERUN_ADDR_FIELD_NAME value="HDHomeRun IP adres"/>
+  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="Link naar downloaden XMLTV bestand"/>
+  <IDS_IPTV_NO_GROUP_TRANSPONDER_NAME value="! Zenders zonder groep"/>
+  <IDS_IPTV_ALL_CHANNELS_TRANSPONDER_NAME value="Alle zenders"/>
+  <IDS_IPTV_LOCAL_PLAYLIST_PROVIDER_NAME value="Lokale afspeellijst"/>
+  
+  <IDS_DLNA_ALL_CHANNELS_CONTAINER_NAME value="TV Zenders"/>
+  <IDS_DLNA_SERVER_NAME_NAME value="TVMosaic DLNA TV Server"/>  
+
+  <IDS_RECTV_BY_NAME_CONTAINER_NAME value="Naam"/>
+  <IDS_RECTV_BY_NAME_CONTAINER_DESC value="Opgenomen programma´s alfabetisch sorteren"/>
+  <IDS_RECTV_BY_DATE_CONTAINER_NAME value="Datum"/>
+  <IDS_RECTV_BY_DATE_CONTAINER_DESC value="Opgenomen programma´s op datum en tijd sorteren"/>
+  <IDS_RECTV_SOURCE_NAME value="Opgenomen programma´s"/>
+  <IDS_RECTV_SOURCE_DESC value="Uw favoriete opgenomen programma´s en series"/>
+  <IDS_RECTV_BY_GENRE_CONTAINER_NAME value="Genre"/>
+  <IDS_RECTV_BY_GENRE_CONTAINER_DESC value="Opgenomen programma´s op genre sorteren"/>
+  <IDS_RECTV_BY_SERIES_CONTAINER_NAME value="Series"/>
+  <IDS_RECTV_BY_SERIES_CONTAINER_DESC value="Opgenomen programma´s naar serie sorteren"/>
+  <IDS_RECTV_GENRE_MOVIE_CONTAINER_NAME value="Film"/>
+  <IDS_RECTV_GENRE_KIDS_CONTAINER_NAME value="Kids"/>
+  <IDS_RECTV_GENRE_DOC_CONTAINER_NAME value="Documentaire"/>
+  <IDS_RECTV_GENRE_SPORT_CONTAINER_NAME value="Sport"/>
+  <IDS_RECTV_GENRE_MUSIC_CONTAINER_NAME value="Muziek"/>
+  <IDS_RECTV_GENRE_NEWS_CONTAINER_NAME value="Nieuws"/>
+  <IDS_RECTV_GENRE_OTHER_CONTAINER_NAME value="Andere"/>
+
+  <IDS_SERVER_EXTERNAL_CI_CHOICE value="Externe CI"/>
+  <IDS_SERVER_EXTERNAL_CI_CHOICE_NONE value="geen"/>
+
+  <IDS_SERVER_USE_INBAND_EPG_CHOICE value="Gebruik EPG event ID's van stream"/>
+  <IDS_SERVER_USE_OWN_EPG_TRANSPONDER value="Gebruik alleen EPG van eigen transponder"/>
+
+  <IDS_XMLTV_SETTINGS_CONTAINER_NAME value="XMLTV bron instellingen"/>
+  <IDS_XMLTV_SETTINGS_CONTAINER_DESC value="Instellingen XMLTV bron bewerken"/>
+  <IDS_XMLTV_SETTINGS_URL1_FIELD_NAME value="Link naar download XMLTV bestand (1)"/>
+  <IDS_XMLTV_SETTINGS_URL2_FIELD_NAME value="Link naar download XMLTV bestand (2)"/>
+  <IDS_XMLTV_SETTINGS_UPDATE_PERIOD_FIELD_NAME value="Update periode, min"/>
+  
+  <IDS_DEFAULT_EPG_SRC_NAME value="Standaard EPG (van TV signaal)"/>
+  <IDS_DESKTOP_CLIENT_HTML_TEXT value="TVMosaic desktop application is required to configure your network TVMosaic server.<br><br>TVMosaic desktop application for Windows, MacOS and Ubuntu/Debian platforms can be downloaded from <br><br>"/>  
+</language>
