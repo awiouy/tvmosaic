@@ -95,4 +95,28 @@
   
   <IDS_DEFAULT_EPG_SRC_NAME value="Standard EPG (aus TV Quelle)"/>
   <IDS_DESKTOP_CLIENT_HTML_TEXT value="TVMosaic desktop application is required to configure your network TVMosaic server.<br><br>TVMosaic desktop application for Windows, MacOS and Ubuntu/Debian platforms can be downloaded from <br><br>"/>  
+
+  <IDS_RESCAN_SETTINGS_CONTAINER value="Einstellungen neuer Sendersuchlauf"/>
+  <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Automatisch neue Sender verbergen"/>
+
+  <IDS_GENRE_ACTION value="Action"/>
+  <IDS_GENRE_ADULT value="Adult"/>
+  <IDS_GENRE_COMEDY value="Comedy"/>
+  <IDS_GENRE_DOCUMENTARY value="Documentation"/>
+  <IDS_GENRE_DRAMA value="Drama"/>
+  <IDS_GENRE_EDU value="Education"/>
+  <IDS_GENRE_HORROR value="Horror"/>
+  <IDS_GENRE_KIDS value="Kinder"/>
+  <IDS_GENRE_MOVIE value="Film"/>
+  <IDS_GENRE_MUSIC value="Musik"/>
+  <IDS_GENRE_NEWS value="Nachrichten"/>
+  <IDS_GENRE_REALITY value="Reality"/>
+  <IDS_GENRE_ROMANCE value="Romance"/>
+  <IDS_GENRE_SCIFI value="SciFi"/>
+  <IDS_GENRE_SERIAL value="Serien"/>
+  <IDS_GENRE_SOAP value="Soap"/>
+  <IDS_GENRE_SPECIAL value="Spezial"/>
+  <IDS_GENRE_SPORT value="Sport"/>
+  <IDS_GENRE_THRILLER value="Thriller"/>
+
 </language>

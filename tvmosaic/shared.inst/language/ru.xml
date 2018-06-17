@@ -95,4 +95,28 @@
   
   <IDS_DEFAULT_EPG_SRC_NAME value="ЕПГ по умолчанию (из источника ТВ сигнала)"/>
   <IDS_DESKTOP_CLIENT_HTML_TEXT value="Для настройки вашего сетевого TVMosaic сервера необходимо десктоп приложение TVMosaic.<br><br>Десктоп приложение TVMosaic для Windows, MacOS и Ubuntu/Debian можно загрузить с <br><br>"/>  
+
+  <IDS_RESCAN_SETTINGS_CONTAINER value="Настройки повторного поиска каналов"/>
+  <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Автоматически прятать новые каналы"/>
+
+  <IDS_GENRE_ACTION value="Боевик"/>
+  <IDS_GENRE_ADULT value="Для взрослых"/>
+  <IDS_GENRE_COMEDY value="Комедия"/>
+  <IDS_GENRE_DOCUMENTARY value="Документалистика"/>
+  <IDS_GENRE_DRAMA value="Драма"/>
+  <IDS_GENRE_EDU value="Образование"/>
+  <IDS_GENRE_HORROR value="Ужасы"/>
+  <IDS_GENRE_KIDS value="Для детей"/>
+  <IDS_GENRE_MOVIE value="Фильм"/>
+  <IDS_GENRE_MUSIC value="Музыка"/>
+  <IDS_GENRE_NEWS value="Новости"/>
+  <IDS_GENRE_REALITY value="Реалити ТВ"/>
+  <IDS_GENRE_ROMANCE value="Мелодрама"/>
+  <IDS_GENRE_SCIFI value="Фантастика"/>
+  <IDS_GENRE_SERIAL value="Сериал"/>
+  <IDS_GENRE_SOAP value="Ситком"/>
+  <IDS_GENRE_SPECIAL value="Репортаж"/>
+  <IDS_GENRE_SPORT value="Спорт"/>
+  <IDS_GENRE_THRILLER value="Триллер"/>
+  
 </language>
