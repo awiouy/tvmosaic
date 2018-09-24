@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usecase>
+	<params>
+		<param>-y</param>
+		<param>-ss</param>
+		<param>%OFFSETSEC%</param>
+		<param>-i</param>
+		<param>%SRC%</param>
+		<param>-vcodec</param>
+		<param>mjpeg</param>
+		<param>-vframes</param>
+		<param>1</param>
+		<param>-an</param>
+		<param>-f</param>
+		<param>rawvideo</param>
+		<param dimensions="true">-vf</param>
+		<param dimensions="true">scale='trunc(iw*(%HEIGHT%/ih)*sar/32)*32:trunc(ih*(%HEIGHT%/ih)/16)*16'</param>
+		<param>-ss</param>
+		<param>3</param>
+		<param>%DEST%</param>
+	</params>
+</usecase>

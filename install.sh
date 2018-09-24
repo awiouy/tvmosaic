@@ -16,16 +16,6 @@ mkdir -p $TVM_ROOT_DIR
 echo "copying tvmosaic files"
 cp -raf ./tvmosaic/* $TVM_ROOT_DIR/
 
-
-if [ -f $TVM_ROOT_DIR/tvmosaic_configuration.xml ]; then
-	#update
-	$TVM_ROOT_DIR/reg.sh -reginstall "${TVM_ROOT_DIR}/data/common/product_info/tvmosaic.xml" update
-else
-	#new install
-	$TVM_ROOT_DIR/reg.sh -preparenewinstall "${TVM_ROOT_DIR}" "${TVM_ROOT_DIR}/data" "${TVM_SHARED_PATH}"
-	$TVM_ROOT_DIR/reg.sh -reginstall "${TVM_ROOT_DIR}/data/common/product_info/tvmosaic.xml" install
-fi
-
 echo "creating/updating tvmosaic data directory"
 
 mkdir -p -m a=rwx ${TVM_SHARED_PATH}
@@ -37,8 +27,17 @@ mkdir -p -m a=rwx ${TVM_SHARED_PATH}/channel_logo
 mkdir -p -m a=rwx ${TVM_SHARED_PATH}/xmltv
 
 #copy shared.inst to share and delete it afterwards
-cp -rf ${TVM_ROOT_DIR}/shared.inst/* $TVM_SHARED_PATH/
+cp -rpaf ${TVM_ROOT_DIR}/shared.inst/* $TVM_SHARED_PATH/
 rm -rf ${TVM_ROOT_DIR}/shared.inst
+
+if [ -f $TVM_ROOT_DIR/tvmosaic_configuration.xml ]; then
+	#update
+	$TVM_ROOT_DIR/reg.sh -reginstall "${TVM_ROOT_DIR}/data/common/product_info/tvmosaic.xml" update
+else
+	#new install
+	$TVM_ROOT_DIR/reg.sh -preparenewinstall "${TVM_ROOT_DIR}" "${TVM_ROOT_DIR}/data" "${TVM_SHARED_PATH}"
+	$TVM_ROOT_DIR/reg.sh -reginstall "${TVM_ROOT_DIR}/data/common/product_info/tvmosaic.xml" install
+fi
 
 #add tvmosaic to the start-up script
 AUTOSTART_FILE="/storage/.config/autostart.sh"

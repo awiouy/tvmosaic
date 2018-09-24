@@ -55,7 +55,7 @@
   <IDS_SERVER_HDHOMERUN_PROVIDER_NAME value="HDHomeRun пристрiй"/>
   <IDS_SERVER_HDHOMERUN_PROVIDER_DESC value="HDHomeRun Prime/Expand пристрiй"/>
   <IDS_SERVER_HDHOMERUN_ADDR_FIELD_NAME value="IP адреса HDHomeRun"/>
-  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="Лiнк для завантаження XMLTV файла"/>
+  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="URL або шлях на диску до XMLTV файла"/>
   <IDS_IPTV_NO_GROUP_TRANSPONDER_NAME value="! Канали, що не належать до жодної групи"/>
   <IDS_IPTV_ALL_CHANNELS_TRANSPONDER_NAME value="Всi канали"/>
   <IDS_IPTV_LOCAL_PLAYLIST_PROVIDER_NAME value="Локальний плейлист"/>
@@ -118,5 +118,22 @@
   <IDS_GENRE_SPECIAL value="Репортаж"/>
   <IDS_GENRE_SPORT value="Спорт"/>
   <IDS_GENRE_THRILLER value="Триллер"/>
+
+  <IDS_SERVER_LOF1_PARAM_NAME value="LOF 1, MГц (встановiть в -1 для значення за замовченням)"/>
+  <IDS_SERVER_LOF2_PARAM_NAME value="LOF 2, MГц (встановiть в -1 для значення за замовченням)"/>
+  <IDS_SERVER_LOFSW_PARAM_NAME value="LOF SW, MГц (встановiть в -1 для значення за замовченням)"/>
+
+  <IDS_SERVER_PROVIDER_TAG_PARAM_NAME value="Ярлик провайдера (не обов'язковий, пустий для значення за замовченням)"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_NAME value="Параметри сканування джерела IPTV"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_DESC value=""/>
+
+  <IDS_SERVER_FFMPEG_DEFAULT_PROFILE_NAME value="За замовченням"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_NAME value="Транскодування"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_DESC value="Виберiть профiль транскодування для рiзних сценарiїв використання"/>
+  <IDS_SERVER_TU_THUMB_FROM_FILE value="Генерацiя мiнiатюри для запису"/>
+  <IDS_SERVER_TU_LIVE_TO_TS value="Ковертацiя живого ТБ в (h264/aac) транспортний потiк"/>
+  <IDS_SERVER_TU_LIVE_TO_HLS value="Ковертацiя живого ТБ в HLS"/>
+  <IDS_SERVER_TU_RECORDING_TO_HLS value="Ковертацiя запису в HLS"/>
+  <IDS_SERVER_TU_SENDTO_TRANSCODE value="Ковертацiя запису в (h264/aac) mp4"/>
   
 </language>

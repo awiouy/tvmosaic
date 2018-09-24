@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language id="PL" name="Polski">
+  <IDS_SERVER_UNKNOWN_DEVICE_NAME value="Nieznany"/>
+  <IDS_SERVER_CHANNEL_SCAN_PROVIDERS value="Dostawcy skanowania kanałów"/>
+  <IDS_SERVER_AVAILABLE_NETWORKS value="Dostępne sieci"/>
+  <IDS_SERVER_TV_FAVORITES_NAME value="TV"/>
+  <IDS_SERVER_RADIO_FAVORITES_NAME value="Radio"/>
+  <IDS_SERVER_MANUAL_FASTSCAN_NAME value="Skanowanie sieci DVB-C"/>
+  <IDS_SERVER_MANUAL_FASTSCAN_DESC value="Skanowanie sieci z niestandardowymi parametrami"/>
+  <IDS_SERVER_LNB_PARAM_NAME value="LNB"/>
+  <IDS_SERVER_DISEQC_PARAM_NAME value="Diseqc"/>
+  <IDS_SERVER_FREQ_KHZ_PARAM_NAME value="Częstotliwość, KHz"/>
+  <IDS_SERVER_SR_PARAM_NAME value="Symbol rate"/>
+  <IDS_SERVER_MODULATION_PARAM_NAME value="Modulacja"/>
+  <IDS_SERVER_MOD_QAM64_PARAM_NAME value="QAM64"/>
+  <IDS_SERVER_MOD_QAM128_PARAM_NAME value="QAM128"/>
+  <IDS_SERVER_MOD_QAM256_PARAM_NAME value="QAM256"/>
+  <IDS_SERVER_REGULAR_SCAN_NAME value="Regularne skanowanie"/>
+  <IDS_SERVER_NETWORK_SCAN_NAME value="Skanowanie sieci"/>
+  <IDS_SERVER_STANDARD_UNKNOWN_NAME value="Nieznany"/>
+  <IDS_SERVER_STANDARD_DVBT_NAME value="Terrestrial (DVB-T/T2)"/>
+  <IDS_SERVER_STANDARD_DVBC_NAME value="Digital Cable (DVB-C)"/>
+  <IDS_SERVER_STANDARD_DVBS_NAME value="Satellite (DVB-S/S2)"/>
+  <IDS_SERVER_STANDARD_ATSC_NAME value="OTA (ATSC)"/>
+  <IDS_SERVER_STANDARD_CQAM_NAME value="ClearQAM"/>
+  <IDS_SERVER_STANDARD_DVBT_SHORT_NAME value="DVB-T/T2"/>
+  <IDS_SERVER_STANDARD_DVBC_SHORT_NAME value="DVB-C"/>
+  <IDS_SERVER_STANDARD_DVBS_SHORT_NAME value="DVB-S/S2"/>
+  <IDS_SERVER_STANDARD_ATSC_SHORT_NAME value="ATSC"/>
+  <IDS_SERVER_STANDARD_CQAM_SHORT_NAME value="ClearQAM"/>
+
+  <IDS_SERVER_SCAN_PARAMS_CONTAINER_NAME value="Ustawienia skanowania kanałów"/>
+  <IDS_SERVER_SCAN_PARAMS_CONTAINER_DESC value="Określ parametry instalacji TV"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_NAME value="Skanuj tylko bezpłatne kanały"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_YES value="Tak"/>
+  <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_NO value="Nie"/>
+
+  <IDS_SERVER_DEVICE_PARAMS_CNTR_NAME value="Ustawienia urządzenia"/>
+  <IDS_SERVER_FTA_CONCURRENCY_NUM_NAME value="Max number of simul. fta channels"/>
+  <IDS_SERVER_ENC_CONCURRENCY_NUM_NAME value="Max number of simul. encrypted channels"/>
+  <IDS_SERVER_CONCURRENCY_NUM_NO_LIMIT_NAME value="Brak limitu"/>  
+  <IDS_SERVER_MANUAL_DEVICE_TYPE value="Typ urządzenia"/>  
+  <IDS_SERVER_STANDARD_FILE_NAME value="Plik"/>  
+  <IDS_SERVER_STANDARD_FILE_DESC value="Plik strumienia transportu"/>  
+  <IDS_SERVER_DEVICE_FILE_NAME value="Plik"/>  
+  <IDS_SERVER_STANDARD_IPTV_NAME value="IPTV"/>  
+  <IDS_SERVER_STANDARD_IPTV_DESC value="Lista odtwarzania IPTV"/>  
+  <IDS_SERVER_DEVICE_IPTV_NAME value="IPTV"/>
+  <IDS_SERVER_IP_ADDR_PARAM_NAME value="Lokalny adres IP"/>
+  <IDS_SERVER_IP_ADDR_AUTO_PARAM_NAME value="Auto"/>
+  <IDS_PREBUF_TIME_MS_PARAM_NAME value="Czas wstępnego buforowania, ms"/>
+  <IDS_SERVER_URL_ENTRY_PROVIDER_NAME value="Zdalna lista odtwarzania"/>
+  <IDS_SERVER_URL_ENTRY_PROVIDER_DESC value="Lista odtwarzania, hostowana na serwerze internetowym"/>
+  <IDS_SERVER_URL_ENTRY_FIELD_NAME value="URL listy odtwarzania"/>
+  <IDS_SERVER_HDHOMERUN_PROVIDER_NAME value="HDHomeRun urządzenie"/>
+  <IDS_SERVER_HDHOMERUN_PROVIDER_DESC value="HDHomeRun Prime/Expand device"/>
+  <IDS_SERVER_HDHOMERUN_ADDR_FIELD_NAME value="HDHomeRun adres IP"/>
+  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="URL lub ścieżka do pliku XMLTV"/>
+  <IDS_IPTV_NO_GROUP_TRANSPONDER_NAME value="! Kanały bez grupy kanałów"/>
+  <IDS_IPTV_ALL_CHANNELS_TRANSPONDER_NAME value="Wszystkie kanały"/>
+  <IDS_IPTV_LOCAL_PLAYLIST_PROVIDER_NAME value="Lokalna lista odtwarzania"/>
+
+  <IDS_DLNA_ALL_CHANNELS_CONTAINER_NAME value="Kanały TV"/>  
+  <IDS_DLNA_SERVER_NAME_NAME value="TVMosaic DLNA TV Server"/>  
+
+  <IDS_RECTV_BY_NAME_CONTAINER_NAME value="Nazwa"/>
+  <IDS_RECTV_BY_NAME_CONTAINER_DESC value="Nagrane pozycje TV posortowane alfabetycznie"/>
+  <IDS_RECTV_BY_DATE_CONTAINER_NAME value="Data"/>
+  <IDS_RECTV_BY_DATE_CONTAINER_DESC value="Nagrane pozycje TV posortowane po dacie/czasie nagrywania"/>
+  <IDS_RECTV_SOURCE_NAME value="Nagrane TV"/>
+  <IDS_RECTV_SOURCE_DESC value="Twoje ulubione nagrane pokazy i programy"/>
+  <IDS_RECTV_BY_GENRE_CONTAINER_NAME value="Gatunek"/>
+  <IDS_RECTV_BY_GENRE_CONTAINER_DESC value="Nagrane pozycje TV posortowane po gatunku"/>
+  <IDS_RECTV_BY_SERIES_CONTAINER_NAME value="Serie"/>
+  <IDS_RECTV_BY_SERIES_CONTAINER_DESC value="Nagrane pozycje TV posortowane po seriach"/>
+  <IDS_RECTV_GENRE_MOVIE_CONTAINER_NAME value="Film"/>
+  <IDS_RECTV_GENRE_KIDS_CONTAINER_NAME value="Dzieci"/>
+  <IDS_RECTV_GENRE_DOC_CONTAINER_NAME value="Dokumentalny"/>
+  <IDS_RECTV_GENRE_SPORT_CONTAINER_NAME value="Sport"/>
+  <IDS_RECTV_GENRE_MUSIC_CONTAINER_NAME value="Muzyka"/>
+  <IDS_RECTV_GENRE_NEWS_CONTAINER_NAME value="Wiadomości"/>
+  <IDS_RECTV_GENRE_OTHER_CONTAINER_NAME value="Inne"/>
+
+  <IDS_SERVER_EXTERNAL_CI_CHOICE value="Zewnętrzny CI"/>
+  <IDS_SERVER_EXTERNAL_CI_CHOICE_NONE value="Żaden"/>
+
+  <IDS_SERVER_USE_INBAND_EPG_CHOICE value="Użyj ID zdarzeń EPG w paśmie"/>
+  <IDS_SERVER_USE_OWN_EPG_TRANSPONDER value="Używaj EPG tylko z własnego transpondera"/>
+  
+  <IDS_XMLTV_SETTINGS_CONTAINER_NAME value="Ustawienia źródła XMLTV"/>
+  <IDS_XMLTV_SETTINGS_CONTAINER_DESC value="Edytuj ustawienia tego źródła XMLTV"/>
+  <IDS_XMLTV_SETTINGS_URL1_FIELD_NAME value="Link do pobrania pliku XMLTV (1)"/>
+  <IDS_XMLTV_SETTINGS_URL2_FIELD_NAME value="Link do pobrania pliku XMLTV (2)"/>
+  <IDS_XMLTV_SETTINGS_UPDATE_PERIOD_FIELD_NAME value="Uaktualnij co okres, min"/>
+
+  <IDS_DEFAULT_EPG_SRC_NAME value="Domyślny EPG (ze źródła TV)"/>
+
+  <IDS_DESKTOP_CLIENT_HTML_TEXT value="Aplikacja TVMosaic jest wymagana do skonfigurowania twojego sieciowego serwera TVMosaic.<br><br>Aplikację komputerową TVMosaic dla platform Windows, MacOS i Ubuntu / Debian można pobrać z <br><br>"/>  
+
+  <IDS_RESCAN_SETTINGS_CONTAINER value="Ustawienia ponownego skanowania kanału"/>
+  <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Automatycznie ukrywaj nowe kanały"/>
+
+  <IDS_GENRE_ACTION value="Akcja"/>
+  <IDS_GENRE_ADULT value="Dla dorosłych"/>
+  <IDS_GENRE_COMEDY value="Komedia"/>
+  <IDS_GENRE_DOCUMENTARY value="Dokumentalny"/>
+  <IDS_GENRE_DRAMA value="Dramat"/>
+  <IDS_GENRE_EDU value="Edukacyjny"/>
+  <IDS_GENRE_HORROR value="Horror"/>
+  <IDS_GENRE_KIDS value="Dla dzieci"/>
+  <IDS_GENRE_MOVIE value="Film"/>
+  <IDS_GENRE_MUSIC value="Muzyka"/>
+  <IDS_GENRE_NEWS value="Wiadomości"/>
+  <IDS_GENRE_REALITY value="Reality"/>
+  <IDS_GENRE_ROMANCE value="Romantyczny"/>
+  <IDS_GENRE_SCIFI value="SciFi"/>
+  <IDS_GENRE_SERIAL value="Serial"/>
+  <IDS_GENRE_SOAP value="Soap"/>
+  <IDS_GENRE_SPECIAL value="Special"/>
+  <IDS_GENRE_SPORT value="Sport"/>
+  <IDS_GENRE_THRILLER value="Thriller"/>
+
+  <IDS_SERVER_LOF1_PARAM_NAME value="LOF 1, MHz (ustawione na -1 dla wartości domyślnej)"/>
+  <IDS_SERVER_LOF2_PARAM_NAME value="LOF 2, MHz (ustawione na -1 dla wartości domyślnej)"/>
+  <IDS_SERVER_LOFSW_PARAM_NAME value="LOF SW, MHz (ustawione na -1 dla wartości domyślnej)"/>
+  
+  <IDS_SERVER_PROVIDER_TAG_PARAM_NAME value="Znacznik dostawcy (opcjonalny, pozostaw domyślny)"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_NAME value="Parametry skanowania źródła IPTV"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_DESC value=""/>
+
+  <IDS_SERVER_FFMPEG_DEFAULT_PROFILE_NAME value="Domyślne"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_NAME value="Transkodowanie"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_DESC value="Wybierz profil transkodowania dla różnych scenariuszy użycia"/>
+  <IDS_SERVER_TU_THUMB_FROM_FILE value="Generuj miniaturę z nagrania"/>
+  <IDS_SERVER_TU_LIVE_TO_TS value="Konwertuj strumień telewizji na żywo na (h264 / aac)"/>
+  <IDS_SERVER_TU_LIVE_TO_HLS value="Konwertuj telewizję na żywo do HLS"/>
+  <IDS_SERVER_TU_RECORDING_TO_HLS value="Konwertuj nagranie na HLS"/>
+  <IDS_SERVER_TU_SENDTO_TRANSCODE value="Konwertuj nagranie na (h264 / aac) mp4"/>
+  
+</language>

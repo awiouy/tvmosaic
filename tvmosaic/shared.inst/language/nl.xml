@@ -55,7 +55,7 @@
   <IDS_SERVER_HDHOMERUN_PROVIDER_NAME value="HDHomeRun apparaat"/>
   <IDS_SERVER_HDHOMERUN_PROVIDER_DESC value="HDHomeRun Prime/Expand apparaat"/>
   <IDS_SERVER_HDHOMERUN_ADDR_FIELD_NAME value="HDHomeRun IP adres"/>
-  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="Link naar downloaden XMLTV bestand"/>
+  <IDS_IPTV_XMLTV_URL_PARAM_NAME value="URL of locatie van XMLTV bestand"/>
   <IDS_IPTV_NO_GROUP_TRANSPONDER_NAME value="! Zenders zonder groep"/>
   <IDS_IPTV_ALL_CHANNELS_TRANSPONDER_NAME value="Alle zenders"/>
   <IDS_IPTV_LOCAL_PLAYLIST_PROVIDER_NAME value="Lokale afspeellijst"/>
@@ -118,5 +118,22 @@
   <IDS_GENRE_SPECIAL value="Speciaal"/>
   <IDS_GENRE_SPORT value="Sport"/>
   <IDS_GENRE_THRILLER value="Thriller"/>
+
+  <IDS_SERVER_LOF1_PARAM_NAME value="LOF 1, MHz (stel in op -1 als standaardwaarde)"/>
+  <IDS_SERVER_LOF2_PARAM_NAME value="LOF 2, MHz (stel in op -1 als standaardwaarde)"/>
+  <IDS_SERVER_LOFSW_PARAM_NAME value="LOF SW, MHz (stel in op -1 als standaardwaarde)"/>
+
+  <IDS_SERVER_PROVIDER_TAG_PARAM_NAME value="Provider label (optioneel, laat leeg voor standaard)"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_NAME value="IPTV bron parameters voor scan"/>
+  <IDS_SERVER_IPTV_PARAMS_CONTAINER_DESC value=""/>
+
+  <IDS_SERVER_FFMPEG_DEFAULT_PROFILE_NAME value="Standaard instelling (Default)"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_NAME value="Transcoding"/>
+  <IDS_SERVER_FFMPEG_PARAMS_CNTR_DESC value="Kies een transcoding profiel om in verschillende scenarios te gebruiken"/>
+  <IDS_SERVER_TU_THUMB_FROM_FILE value="Maak thumbnail afbeelding van opname"/>
+  <IDS_SERVER_TU_LIVE_TO_TS value="Converteer live TV naar (h264/aac) transport stream"/>
+  <IDS_SERVER_TU_LIVE_TO_HLS value="Converteer live TV naar HLS formaat"/>
+  <IDS_SERVER_TU_RECORDING_TO_HLS value="Converteer opname naar HLS formaat"/>
+  <IDS_SERVER_TU_SENDTO_TRANSCODE value="Converteer opname naar mp4 (h264/aac)"/>
   
 </language>
