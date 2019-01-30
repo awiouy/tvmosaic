@@ -36,8 +36,8 @@
   <IDS_SERVER_SCAN_PARAMS_FTA_ONLY_NO value="Nie"/>
 
   <IDS_SERVER_DEVICE_PARAMS_CNTR_NAME value="Ustawienia urządzenia"/>
-  <IDS_SERVER_FTA_CONCURRENCY_NUM_NAME value="Max number of simul. fta channels"/>
-  <IDS_SERVER_ENC_CONCURRENCY_NUM_NAME value="Max number of simul. encrypted channels"/>
+  <IDS_SERVER_FTA_CONCURRENCY_NUM_NAME value="Maksymalna liczba symulacji fta kanałów"/>
+  <IDS_SERVER_ENC_CONCURRENCY_NUM_NAME value="Maksymalna liczba symulacji zaszyfrowanych kanałów"/>
   <IDS_SERVER_CONCURRENCY_NUM_NO_LIMIT_NAME value="Brak limitu"/>  
   <IDS_SERVER_MANUAL_DEVICE_TYPE value="Typ urządzenia"/>  
   <IDS_SERVER_STANDARD_FILE_NAME value="Plik"/>  
@@ -95,7 +95,7 @@
 
   <IDS_DEFAULT_EPG_SRC_NAME value="Domyślny EPG (ze źródła TV)"/>
 
-  <IDS_DESKTOP_CLIENT_HTML_TEXT value="Aplikacja TVMosaic jest wymagana do skonfigurowania twojego sieciowego serwera TVMosaic.<br><br>Aplikację komputerową TVMosaic dla platform Windows, MacOS i Ubuntu / Debian można pobrać z <br><br>"/>  
+  <IDS_DESKTOP_CLIENT_HTML_TEXT value="Aplikacja TVMosaic jest wymagana do skonfigurowania twojego sieciowego serwera TVMosaic.&lt;br&gt;&lt;br&gt;Aplikację komputerową TVMosaic dla platform Windows, MacOS i Ubuntu / Debian można pobrać z &lt;br&gt;&lt;br&gt;"/>  
 
   <IDS_RESCAN_SETTINGS_CONTAINER value="Ustawienia ponownego skanowania kanału"/>
   <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Automatycznie ukrywaj nowe kanały"/>
@@ -136,5 +136,23 @@
   <IDS_SERVER_TU_LIVE_TO_HLS value="Konwertuj telewizję na żywo do HLS"/>
   <IDS_SERVER_TU_RECORDING_TO_HLS value="Konwertuj nagranie na HLS"/>
   <IDS_SERVER_TU_SENDTO_TRANSCODE value="Konwertuj nagranie na (h264 / aac) mp4"/>
-  
+
+  <IDS_IPTV_PB_SRC_ALL_ITEMS value="Wszystkie pozycje"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_NAME value="Wszystkie po nazwie"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_GROUP value="Grupy"/>
+
+  <IDS_SERVER_TU_LIVE_TO_MP4 value="Konwertuj TV na żywo do MP4"/>
+
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_NAME value="Xtream Codes IPTV"/>
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_DESC value="Dostawca IPTV, który jest oparty na platformie Xtream Codes "/>
+  <IDS_SERVER_XTREAM_CODES_URL_FIELD_NAME value="Bazowy URL (http(s)://domain:port)"/>
+  <IDS_SERVER_XTREAM_CODES_USER_FIELD_NAME value="Użytkownik"/>
+  <IDS_SERVER_XTREAM_CODES_PSWD_FIELD_NAME value="Hasło"/>
+
+  <IDS_IPTV_PB_SRC_VOD value="Kino"/>
+
+  <IDS_SENDTO_COMSKIP_SETTINGS_NAME value="Comskip settings"/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_DESC value=""/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_PROFILE value="Comskip profile file"/>
+
 </language>

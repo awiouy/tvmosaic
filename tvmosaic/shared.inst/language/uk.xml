@@ -94,7 +94,7 @@
   <IDS_XMLTV_SETTINGS_UPDATE_PERIOD_FIELD_NAME value="Перiод оновлення, хв"/>
   
   <IDS_DEFAULT_EPG_SRC_NAME value="ЕПГ за замовченням (з джерела ТВ сигналу)"/>
-  <IDS_DESKTOP_CLIENT_HTML_TEXT value="Для налаштування вашого мережевого TVMosaic сервера потрiбний десктоп додаток TVMosaic.<br><br>Десктоп додаток TVMosaic для Windows, MacOS та Ubuntu/Debian платформ можна завантажити з <br><br>"/>  
+  <IDS_DESKTOP_CLIENT_HTML_TEXT value="Для налаштування вашого мережевого TVMosaic сервера потрiбний десктоп додаток TVMosaic.&lt;br&gt;&lt;br&gt;Десктоп додаток TVMosaic для Windows, MacOS та Ubuntu/Debian платформ можна завантажити з &lt;br&gt;&lt;br&gt;"/>  
 
   <IDS_RESCAN_SETTINGS_CONTAINER value="Налаштування повторного пошуку каналiв"/>
   <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Автоматично ховати новi канали"/>
@@ -135,5 +135,23 @@
   <IDS_SERVER_TU_LIVE_TO_HLS value="Ковертацiя живого ТБ в HLS"/>
   <IDS_SERVER_TU_RECORDING_TO_HLS value="Ковертацiя запису в HLS"/>
   <IDS_SERVER_TU_SENDTO_TRANSCODE value="Ковертацiя запису в (h264/aac) mp4"/>
+
+  <IDS_IPTV_PB_SRC_ALL_ITEMS value="Всi файли"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_NAME value="Всi за Iменем"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_GROUP value="Групи"/>
+
+  <IDS_SERVER_TU_LIVE_TO_MP4 value="Ковертацiя живого ТБ в MP4"/>
+
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_NAME value="Xtream Codes IPTV"/>
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_DESC value="Провайдер IPTV, що використовує платформу Xtream Codes"/>
+  <IDS_SERVER_XTREAM_CODES_URL_FIELD_NAME value="Базова URL (http(s)://domain:port)"/>
+  <IDS_SERVER_XTREAM_CODES_USER_FIELD_NAME value="Користувач"/>
+  <IDS_SERVER_XTREAM_CODES_PSWD_FIELD_NAME value="Пароль"/>
+
+  <IDS_IPTV_PB_SRC_VOD value="Фiльми"/>
+
+  <IDS_SENDTO_COMSKIP_SETTINGS_NAME value="Налаштування Comskip"/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_DESC value=""/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_PROFILE value="Файл профiлю Comskip"/>
   
 </language>

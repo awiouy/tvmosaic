@@ -94,7 +94,7 @@
   <IDS_XMLTV_SETTINGS_UPDATE_PERIOD_FIELD_NAME value="Update Periode, min"/>
   
   <IDS_DEFAULT_EPG_SRC_NAME value="Standard EPG (aus TV Quelle)"/>
-  <IDS_DESKTOP_CLIENT_HTML_TEXT value="TVMosaic desktop application is required to configure your network TVMosaic server.<br><br>TVMosaic desktop application for Windows, MacOS and Ubuntu/Debian platforms can be downloaded from <br><br>"/>  
+  <IDS_DESKTOP_CLIENT_HTML_TEXT value="TVMosaic desktop application is required to configure your network TVMosaic server.&lt;br&gt;&lt;br&gt;TVMosaic desktop application for Windows, MacOS and Ubuntu/Debian platforms can be downloaded from &lt;br&gt;&lt;br&gt;"/>  
 
   <IDS_RESCAN_SETTINGS_CONTAINER value="Einstellungen neuer Sendersuchlauf"/>
   <IDS_HIDE_NEW_CHANNELS_ON_RESCAN value="Automatisch neue Sender verbergen"/>
@@ -136,4 +136,22 @@
   <IDS_SERVER_TU_RECORDING_TO_HLS value="Aufnahme in HLS Format wandeln"/>
   <IDS_SERVER_TU_SENDTO_TRANSCODE value="Aufnahme in mp4 (h264/aac) wandeln"/>
 
+  <IDS_IPTV_PB_SRC_ALL_ITEMS value="Alle Einträge"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_NAME value="Alle bei Namen"/>
+  <IDS_IPTV_PB_SRC_ITEMS_BY_GROUP value="Gruppen"/>
+
+  <IDS_SERVER_TU_LIVE_TO_MP4 value="Live Fernsehen in MP4 umsetzen"/>
+
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_NAME value="Xtream Codes IPTV"/>
+  <IDS_SERVER_XTREAM_CODES_PROVIDER_DESC value="IPTV Abieter basiert auf Xtream Codes Plattform"/>
+  <IDS_SERVER_XTREAM_CODES_URL_FIELD_NAME value="URL Basis (http(s)://domain:port)"/>
+  <IDS_SERVER_XTREAM_CODES_USER_FIELD_NAME value="Benutzername"/>
+  <IDS_SERVER_XTREAM_CODES_PSWD_FIELD_NAME value="Kennwort"/>
+
+  <IDS_IPTV_PB_SRC_VOD value="Filme"/>
+
+  <IDS_SENDTO_COMSKIP_SETTINGS_NAME value="Comskip settings"/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_DESC value=""/>
+  <IDS_SENDTO_COMSKIP_SETTINGS_PROFILE value="Comskip profile file"/>
+  
 </language>
